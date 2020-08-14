@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b16f97bf-704b-45ad-831c-06f4ed019556" name="Default Changelist" comment="" />
+    <list default="true" id="b16f97bf-704b-45ad-831c-06f4ed019556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/controller/FastDFSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/resource/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/FastDFSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/impl/FastDFSServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/utils/FileUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sue/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sue/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -17,20 +40,35 @@
     </option>
   </component>
   <component name="ProjectId" id="1g24xc6J9sreL2VKTvYb3JZrYmw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sue.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sue.controller" />
+      <recent name="com.sue.resource" />
+      <recent name="com.sue" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SbootProject\sue-fastdfs\src\main\resources" />
+      <recent name="E:\SbootProject\sue-fastdfs\src\main\java\com\sue" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,17 +82,69 @@
       <updated>1597299600334</updated>
       <workItem from="1597299604235" duration="17000" />
       <workItem from="1597299635577" duration="7000" />
-      <workItem from="1597363046241" duration="600000" />
+      <workItem from="1597363046241" duration="4903000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringBoot整合FastDFS">
+      <created>1597368849722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597368849722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringBoot整合FastDFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot整合FastDFS" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="671" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1597372385778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597372385778" />
+    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1597368848950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597368848950" />
+    <state x="634" y="135" key="FileChooserDialogImpl" timestamp="1597368789891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="135" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597368789891" />
+    <state width="1921" height="286" key="GridCell.Tab.0.bottom" timestamp="1597371525522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597371525522" />
+    <state width="1921" height="286" key="GridCell.Tab.0.center" timestamp="1597371525522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597371525522" />
+    <state width="1921" height="286" key="GridCell.Tab.0.left" timestamp="1597371525522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597371525522" />
+    <state width="1921" height="286" key="GridCell.Tab.0.right" timestamp="1597371525522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597371525522" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597368851473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597368851473" />
+    <state x="666" y="382" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597368821342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="382" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597368821342" />
     <state x="0" y="19" key="new project wizard" timestamp="1597299618549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="19" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597299618549" />
+    <state x="709" y="208" key="svn.repositoryBrowser" timestamp="1597368785276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="208" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1597368785276" />
   </component>
 </project>
