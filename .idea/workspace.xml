@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b16f97bf-704b-45ad-831c-06f4ed019556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/controller/FastDFSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/resource/FileResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/FastDFSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/impl/FastDFSServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sue/utils/FileUploadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sue/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sue/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sue/service/FastDFSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/FastDFSService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sue/service/impl/FastDFSServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sue/service/impl/FastDFSServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sue/utils/FileUploadUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,7 @@
       <updated>1597299600334</updated>
       <workItem from="1597299604235" duration="17000" />
       <workItem from="1597299635577" duration="7000" />
-      <workItem from="1597363046241" duration="4903000" />
+      <workItem from="1597363046241" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot整合FastDFS">
       <created>1597368849722</created>
@@ -91,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597368849722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SpringBoot整合FastDFS">
+      <created>1597372972585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597372972585</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="671" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597372385778" />
-    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1597368848950">
+    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1597372970597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597368848950" />
+    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597372970597" />
     <state x="634" y="135" key="FileChooserDialogImpl" timestamp="1597368789891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -130,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597371525522" />
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597368851473">
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597372979252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597368851473" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597372979252" />
     <state x="666" y="382" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597368821342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

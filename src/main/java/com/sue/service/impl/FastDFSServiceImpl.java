@@ -2,23 +2,15 @@ package com.sue.service.impl;
 
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 import com.github.tobato.fastdfs.service.FastFileStorageClient;
-import com.sue.controller.BaseController;
-import com.sue.pojo.Users;
-import com.sue.pojo.vo.UsersVO;
-import com.sue.resource.FileResource;
+
 import com.sue.service.FastDFSService;
-import com.sue.service.usercenterservice.UserCenterService;
-import com.sue.utils.CookieUtils;
-import com.sue.utils.IMOOCJSONResult;
-import com.sue.utils.JsonUtils;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.FileReader;
+
 
 /**
  * @author sue
@@ -30,12 +22,6 @@ public class FastDFSServiceImpl implements FastDFSService {
 
     @Autowired
     private FastFileStorageClient fastFileStorageClient;
-
-    @Autowired
-    private FileResource fileResource;
-
-    @Autowired
-    private UserCenterService userCenterService;
 
     @Override
     public String upload(String userId,MultipartFile file) throws Exception {
